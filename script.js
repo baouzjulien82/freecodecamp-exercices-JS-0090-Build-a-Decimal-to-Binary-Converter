@@ -4,7 +4,6 @@
     const numberInput = document.getElementById("number-input");
     const convertBtn = document.getElementById("convert-btn");
     const result = document.getElementById("result");
-
     
      // Fonction qui convertit un nombre décimal en binaire
      
@@ -42,7 +41,6 @@
       // Les restes sont dans l'ordre inverse → on les renverse et on les colle
       result.innerText = remainders.reverse().join("");
     };
-
     
      * Fonction qui vérifie la saisie utilisateur avant conversion
      
