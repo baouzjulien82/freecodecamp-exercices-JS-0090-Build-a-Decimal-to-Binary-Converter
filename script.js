@@ -1,5 +1,5 @@
 // Version de base ------------------------------------------------------------------------------------------------------------------------------------------------
-
+/*
 // Récupération des éléments HTML par leur ID
     const numberInput = document.getElementById("number-input");
     const convertBtn = document.getElementById("convert-btn");
@@ -8,7 +8,7 @@
     /**
      * Fonction qui convertit un nombre décimal en binaire
      * @param {number} input - le nombre décimal à convertir
-     */
+     
     const decimalToBinary = (input) => {
       // Tableaux pour tracer les étapes de calcul (utile pour debug)
       const inputs = [];
@@ -46,7 +46,7 @@
 
     /**
      * Fonction qui vérifie la saisie utilisateur avant conversion
-     */
+     
     const checkUserInput = () => {
       // Vérifie si le champ est vide, si ce n'est pas un nombre, ou si c'est négatif
       if (
@@ -74,7 +74,6 @@
         checkUserInput();
       }
     });
-
 
 // Version améliorée ----------------------------------------------------------------------------------------------------------------------------------------------
 /*
@@ -121,7 +120,7 @@ numberInput.addEventListener("keydown", (e) => {
 */
 
 // Vesrion Recursive ----------------------------------------------------------------------------------------------------------------------------------------------
-/*
+
 const numberInput = document.getElementById("number-input");
 const convertBtn = document.getElementById("convert-btn");
 const result = document.getElementById("result");
@@ -208,4 +207,3 @@ numberInput.addEventListener("keydown", (e) => {
     checkUserInput();
   }
 });
-*/
