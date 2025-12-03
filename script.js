@@ -1,4 +1,4 @@
-// Version de base 
+// Version de base ------------------------------------------------------------------------------------------------------------------------------------------------
 
 // Récupération des éléments HTML par leur ID
     const numberInput = document.getElementById("number-input");
@@ -76,7 +76,7 @@
     });
 
 
-// Version améliorée
+// Version améliorée ----------------------------------------------------------------------------------------------------------------------------------------------
 /*
 const numberInput = document.getElementById("number-input");
 const convertBtn = document.getElementById("convert-btn");
@@ -120,7 +120,7 @@ numberInput.addEventListener("keydown", (e) => {
 });
 */
 
-// Vesrion Recursive
+// Vesrion Recursive ----------------------------------------------------------------------------------------------------------------------------------------------
 /*
 const numberInput = document.getElementById("number-input");
 const convertBtn = document.getElementById("convert-btn");
@@ -171,9 +171,17 @@ const showAnimation = () => {
     }, obj.addElDelay);
 
     setTimeout(() => {
-
+      document.getElementById(obj.inputVal).textContent = obj.msg;
     }, obj.showMsgDelay);
+
+    setTimeout(() => {
+      document.getElementById(obj.inputVal).remove();
+    }, obj.removeElDelay);
   });
+
+  setTimeout(() => {
+result.textContent = decimalToBinary(5);
+  }, 20000);
 };
 
 const checkUserInput = () => {
