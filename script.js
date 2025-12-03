@@ -5,7 +5,7 @@
     const convertBtn = document.getElementById("convert-btn");
     const result = document.getElementById("result");
 
-    /**
+    
      * Fonction qui convertit un nombre décimal en binaire
      * @param {number} input - le nombre décimal à convertir
      
@@ -44,7 +44,7 @@
       result.innerText = remainders.reverse().join("");
     };
 
-    /**
+    
      * Fonction qui vérifie la saisie utilisateur avant conversion
      
     const checkUserInput = () => {
