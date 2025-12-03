@@ -7,7 +7,6 @@
 
     
      // Fonction qui convertit un nombre décimal en binaire
-     // @param {number} input - le nombre décimal à convertir
      
     const decimalToBinary = (input) => {
       // Tableaux pour tracer les étapes de calcul (utile pour debug)
